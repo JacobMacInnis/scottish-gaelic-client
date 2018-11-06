@@ -1,0 +1,24 @@
+.login-form{
+  text-align: center;
+  width: 170px;
+  margin: 0 auto;
+}
+#username, #password, .login-button {
+  width: 100%;
+  border-radius: 4px;
+}
+.login-button {
+  margin: 5% 2%;
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 25px;
+  font-weight: bold;
+  color: teal;
+  background-color: azure;
+  border-width: 2px;
+}
+.login-button:hover {
+  cursor: pointer;
+  background-color: rgb(17, 219, 219);
+  color: rgb(31, 94, 94);
+}

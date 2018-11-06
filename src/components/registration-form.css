@@ -1,0 +1,31 @@
+.registration-form{
+  text-align: center;
+  width: 150px;
+  margin: 0 auto;
+}
+.registration-h2 {
+  display: flex;
+  justify-content: center;
+}
+#firstName, #username, #password, #passwordConfirm,.registration-button { 
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 1%;
+  margin: 2%;
+  border-radius: 4px; 
+}
+.registration-button {
+  margin: 5% 2%;
+  border-radius: 4px;
+  height: 25px;
+  font-weight: bold;
+  color: teal;
+  background-color: azure;
+  border-width: 2px;
+}
+.registration-button:hover {
+  cursor: pointer;
+  background-color: rgb(17, 219, 219);
+  color: rgb(31, 94, 94);
+}

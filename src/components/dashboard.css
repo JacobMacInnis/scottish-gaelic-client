@@ -1,0 +1,36 @@
+.button-toggle-quiz {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  width: 100px;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.dashboard{
+  text-align: center;
+  background-color: white;
+  border-radius: 4px;
+  padding: 3%;
+  -webkit-box-shadow: 0px 0px 1px 1px rgba(125,125,125,1);
+  -moz-box-shadow: 0px 0px 1px 1px rgba(125,125,125,1);
+  box-shadow: 0px 0px 1px 1px rgba(125,125,125,1);
+}
+.green-button {
+  background-color: rgb(69, 204, 170);
+  color: white;
+}
+.green-button:hover {
+  background-color: rgb(36, 243, 191);
+  cursor: pointer;
+}
+.red-button {
+  background-color: rgb(204, 101, 32);
+  color: white;
+}
+.red-button:hover {
+  background-color: rgb(245, 121, 38);
+  cursor: pointer;
+}
+.stats-container {
+  font-size: 1.2em;
+}
