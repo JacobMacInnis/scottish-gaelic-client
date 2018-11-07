@@ -1,7 +1,7 @@
 import {createStore, applyMiddleware, combineReducers} from 'redux';
 import {reducer as formReducer} from 'redux-form';
 import thunk from 'redux-thunk';
-import {loadAuthToken} from './local-storage';
+import { loadAuthToken } from './local-storage';
 import authReducer from './reducers/auth';
 import quizReducer from './reducers/quiz';
 import statsReducer from './reducers/stats';
@@ -17,7 +17,7 @@ const store = createStore(
     applyMiddleware(thunk)
 );
 
-// Hydrate the authToken from localStorage if it exist
+//Hydrate the authToken from localStorage if it exist
 const authToken = loadAuthToken();
 if (authToken) {
     const token = authToken;
