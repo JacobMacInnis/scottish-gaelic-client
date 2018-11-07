@@ -20,7 +20,7 @@ a {
   display: flex;
   justify-content: center;
 }
-.readme{
+.about{
   display: flex;
   flex-direction: column;
   align-items: center;
