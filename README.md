@@ -1,4 +1,5 @@
-# Scottish Gaelic - CLIENT
+![Scottish Gaelic](https://github.com/JacobMacInnis/beach-tides-client/blob/master/src/img/BeachTides.png?raw=true "Beach Tides Logo")
+# (www.beachtides.us)
 
 <p align="center">
 	<strong>
