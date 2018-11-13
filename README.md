@@ -1,4 +1,4 @@
-![Scottish Gaelic](https://github.com/JacobMacInnis/beach-tides-client/blob/master/src/img/BeachTides.png?raw=true "Beach Tides Logo")
+![Scottish Gaelic](https://github.com/JacobMacInnis/scottish-gaelic-client/blob/master/src/images/scottish-galic-title.png?raw=true "Scottish Gaelic Title")
 # (www.beachtides.us)
 
 <p align="center">
