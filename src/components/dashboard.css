@@ -1,5 +1,6 @@
 .button-toggle-quiz {
   border: 1px solid black;
+  margin-top: 10px;
   margin-bottom: 10px;
   width: 100px;
   border-radius: 4px;
@@ -8,7 +9,7 @@
 
 .dashboard{
   text-align: center;
-  background-color: white;
+  background-color: rgb(168, 209, 255);
   border-radius: 4px;
   padding: 3%;
   -webkit-box-shadow: 0px 0px 1px 1px rgba(125,125,125,1);
@@ -33,4 +34,17 @@
 }
 .stats-container {
   font-size: 1.2em;
+  border: 3px solid green;
+  border-radius: 4px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgb(179, 247, 133);
+}
+.stats-container h3 {
+  margin: 0;
+  padding: 3px;
+}
+.stats-container p {
+  margin: 0;
+  padding: 0;
 }

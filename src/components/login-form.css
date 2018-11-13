@@ -1,11 +1,18 @@
 .login-form{
+  background-color: white;
+  padding: 5px;
+  padding-right: 10px;
   text-align: center;
   width: 170px;
-  margin: 0 auto;
+  margin: 5px auto 0 auto;
+  border-radius: 4px;
 }
 #username, #password, .login-button {
   width: 100%;
   border-radius: 4px;
+}
+#username, #password {
+  text-align: center;
 }
 .login-button {
   margin: 5% 2%;
@@ -13,12 +20,12 @@
   border-radius: 4px;
   height: 25px;
   font-weight: bold;
-  color: teal;
-  background-color: azure;
+  color: white;
+  background-color: rgb(14, 86, 145);
   border-width: 2px;
 }
 .login-button:hover {
   cursor: pointer;
-  background-color: rgb(17, 219, 219);
-  color: rgb(31, 94, 94);
+  background-color: rgb(19, 121, 204);
+  color: white;
 }

@@ -1,8 +1,9 @@
-.home {
-  background: white;
+.landing {
+  margin: auto;
+  background: rgba(7, 135, 255, 0.726);
   padding: 10px;
   border-radius: 4px;
-  width: 250px;
+  width: 300px;
   padding-bottom: 15px;
   padding-top: 15px;
   -webkit-box-shadow: 0px 0px 1px 1px rgba(125,125,125,1);
@@ -10,6 +11,10 @@
   box-shadow: 0px 0px 1px 1px rgba(125,125,125,1);
 }
 .landing-h2 {
+  font-family: 'Charmonman', cursive;
+  background-color: white;
+  padding: 2px;
+  border-radius: 4px;
   display: flex;
   justify-content: center;
   margin: 0;
@@ -27,4 +32,19 @@ a {
   max-width: 600px;
   margin: 0 auto;
   text-align:center;
+}
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.link {
+  margin: auto;
+  margin-top: 4px;
+  background-color: white;
+  border-radius: 4px;
+  width: 170px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }

@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import {Link, Redirect} from 'react-router-dom';
 import About from './about'
 import LoginForm from './login-form';
+import MacInnisTartan from './../images/macinnes_dress-dalgliesh.jpg';
 import './landing-page.css'
 
 export function LandingPage(props) {
@@ -12,11 +13,12 @@ export function LandingPage(props) {
     }
 
     return (
-        <div className="home">
-            <h2 className='landing-h2'>Welcome to CS Cards</h2>
-            <LoginForm />
-            <Link to="/register">Register</Link>
+        <div className="landing">
+            <h2 className='landing-h2'>Beautiful Scottish Gaelic</h2>
             <About />
+            <LoginForm />
+            <Link className='link' to="/register">Register</Link>
+            <img src={MacInnisTartan} alt="MacInnis Tartan background" className="bg"></img>
         </div>
     );
 }

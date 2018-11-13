@@ -42,18 +42,19 @@ export class Dashboard extends React.Component {
         return (
             <div className="dashboard">
                 <div className='stats-container' aria-live = 'polite'>
-                    <p className='stats-total'>Total Questions Answered: 
+                    <h3>My Stats</h3>
+                    <p className='stats-total'>Total Words : 
                         {this.props.stats ? this.props.stats.totalQuestions : 0}</p>
                     <p className='stats-lifetime'>Lifetime&nbsp;{(this.props.stats && this.props.stats.totalQuestions !== 0) ? 
-                            Math.floor(this.props.stats.totalRight/this.props.stats.totalQuestions * 100): 0}% Answered Correctly</p>
+                            Math.floor(this.props.stats.totalRight/this.props.stats.totalQuestions * 100): 0}%</p>
                     <p className='stats-current-correct'>
-                        {this.props.stats ? this.props.stats.recurringCorrect : 0 } Correct Questions In a Row!</p>
+                        {this.props.stats ? this.props.stats.recurringCorrect : 0 } Correct In a Row!</p>
                 </div>
                 <button type='button' 
                     className={`button-toggle-quiz ${startStop}`} 
                     onClick={() => this.toggleOnQuiz()}>{this.state.quizButton} Quiz</button>
                 {quizArea}
-                <Chat username={username}/>
+                {/* <Chat username={username}/> */}
             </div>
         );
     }

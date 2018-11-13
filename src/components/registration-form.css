@@ -14,18 +14,20 @@
   padding: 1%;
   margin: 2%;
   border-radius: 4px; 
+  text-align: center;
 }
 .registration-button {
   margin: 5% 2%;
+  border: 1px solid black;
   border-radius: 4px;
   height: 25px;
   font-weight: bold;
-  color: teal;
-  background-color: azure;
+  color: white;
+  background-color: rgb(14, 86, 145);
   border-width: 2px;
 }
 .registration-button:hover {
   cursor: pointer;
-  background-color: rgb(17, 219, 219);
-  color: rgb(31, 94, 94);
+  background-color: rgb(19, 121, 204);
+  color: white;
 }
