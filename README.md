@@ -1,5 +1,4 @@
 ![Scottish Gaelic](https://github.com/JacobMacInnis/scottish-gaelic-client/blob/master/src/images/scottish-galic-title.png?raw=true "Scottish Gaelic Title")
-# (www.beachtides.us)
 
 <p align="center">
 	<strong>
