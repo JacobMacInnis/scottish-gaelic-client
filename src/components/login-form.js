@@ -41,7 +41,7 @@ export class LoginForm extends React.Component {
                     component={Input}
                     type="password"
                     name="password"
-                    autocomplete="password"
+                    autoComplete="password"
                     id="password"
                     validate={[required, nonEmpty]}
                 />
