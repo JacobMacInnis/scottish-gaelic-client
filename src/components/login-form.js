@@ -33,6 +33,7 @@ export class LoginForm extends React.Component {
                     type="text"
                     name="username"
                     id="username"
+                    autocomplete="username"
                     validate={[required, nonEmpty]}
                 />
                 <label htmlFor="password">Password</label>
@@ -40,6 +41,7 @@ export class LoginForm extends React.Component {
                     component={Input}
                     type="password"
                     name="password"
+                    autocomplete="password"
                     id="password"
                     validate={[required, nonEmpty]}
                 />
