@@ -1,4 +1,4 @@
-![Scottish Gaelic](https://github.com/JacobMacInnis/scottish-gaelic-client/blob/master/src/images/scottish-galic-title.png?raw=true "Scottish Gaelic Title")
+<div align="center"><img src='https://github.com/JacobMacInnis/scottish-gaelic-client/blob/master/src/images/scottish-galic-title.png?raw=true' /></div>
 
 <p align="center">
 	<strong>
@@ -13,9 +13,15 @@ Scottish Gaelic is a language learning app designed to improve your abilty to le
 
 ### Mobile Screenshots
 
-| <img alt="Landing/Login page" src="https://github.com/thinkful-ei23/Client-CS-Cards/blob/master/src/images/screenshots/mobile-landing.png?raw=true" width="350"> | <img alt="dashboard" src="https://github.com/thinkful-ei23/Client-CS-Cards/blob/master/src/images/screenshots/mobile-dashboard.png?raw=true" width="350"> | <img alt="quiz" src="https://github.com/thinkful-ei23/Client-CS-Cards/blob/master/src/images/screenshots/mobile-question.png?raw=true" width="350"> | 
+| <img alt="Landing/Login page" src="https://github.com/JacobMacInnis/scottish-gaelic-client/blob/master/src/images/mobile-landing.png?raw=true" width="350"> | <img alt="registration" src="https://github.com/JacobMacInnis/scottish-gaelic-client/blob/master/src/images/mobile-registration.png?raw=true" width="350"> | <img alt="quiz" src="https://github.com/JacobMacInnis/scottish-gaelic-client/blob/master/src/images/mobile-learning.png?raw=true" width="350"> | 
 |:---:|:---:|:---:|
-| Landing/Login Page | Dashboard | First Question | 
+| Landing/Login Page | Registration | First Question | 
+
+## Tablet Screenshot
+| <img alt="gaelic quiz tablet view" src="https://github.com/JacobMacInnis/scottish-gaelic-client/blob/master/src/images/desktop.png?raw=true" width="500" > |
+|:--:|
+|Tablet Quiz Page|
+
 
 ## Tech Used
 
