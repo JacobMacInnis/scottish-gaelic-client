@@ -8,6 +8,15 @@
     </strong>
 </p>
 
+## Summary
+Scottish Gaelic is a language learning app designed to improve your abilty to learn the beautiful Scottish language of Gaelic.  Using our specialized algorithm we will teach you words and phrases that will build your language skills and based on your abilities you will progress quickly and with a stronger grasp of Gaelic!
+
+### Mobile Screenshots
+
+| <img alt="Landing/Login page" src="https://github.com/thinkful-ei23/Client-CS-Cards/blob/master/src/images/screenshots/mobile-landing.png?raw=true" width="350"> | <img alt="dashboard" src="https://github.com/thinkful-ei23/Client-CS-Cards/blob/master/src/images/screenshots/mobile-dashboard.png?raw=true" width="350"> | <img alt="quiz" src="https://github.com/thinkful-ei23/Client-CS-Cards/blob/master/src/images/screenshots/mobile-question.png?raw=true" width="350"> | 
+|:---:|:---:|:---:|
+| Landing/Login Page | Dashboard | First Question | 
+
 ## Tech Used
 
 ### Front-End
